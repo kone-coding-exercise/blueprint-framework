@@ -1,0 +1,7 @@
+{
+  "project_name": "sample-node-app",
+  "language": "node",
+  "build_type": "npm",
+  "deploy_method": "docker",
+  "branching_strategy": "semantic"
+}

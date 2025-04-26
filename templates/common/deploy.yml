@@ -1,0 +1,7 @@
+  deploy:
+    runs-on: ubuntu-latest
+    needs: [test]
+    steps:
+      - uses: actions/checkout@v3
+      - name: Deploy App
+        run: echo "Deploying using Docker..."

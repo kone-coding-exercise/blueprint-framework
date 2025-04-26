@@ -22,7 +22,7 @@ jobs:
         with:
           node-version: '18'
       - name: Install Dependencies
-        run: npm install
+        run: npm init -y && npm install
       - name: Run Node Tests
         run: npm test
 

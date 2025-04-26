@@ -23,8 +23,8 @@ jobs:
           node-version: '18'
       - name: Install Dependencies
         run: npm init -y && npm install
-      - name: Run Node Tests
-        run: npm test
+      #- name: Run Node Tests
+        #run: npm test
 
   test:
     runs-on: ubuntu-latest

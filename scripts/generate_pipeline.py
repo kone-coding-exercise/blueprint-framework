@@ -30,3 +30,4 @@ def generate_pipeline(blueprint):
 if __name__ == "__main__":
     blueprint = load_blueprint("blueprints/sample-project.json")
     generate_pipeline(blueprint)
+    #test completed
